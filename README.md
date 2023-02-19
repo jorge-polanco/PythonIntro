@@ -1,4 +1,4 @@
-Co-authored-by: Aldo Maldonado Hernadez aldo.maldonadohz@udlap.mx>
+Co-authored-by: Aldo Maldonado Hernadez 165459
 
 
 Co-authored-by: AUTHOR-NAME <ANOTHER-NAME@EXAMPLE.COM>"
@@ -26,16 +26,25 @@ Lo primero que tienes que hacer es descargar Anaconda para poder trabajar con J�
 https://www.anaconda.com/
 
 ## Introducción a Python, cómo escribir código y ejecutarlo
+ <br>
 1-Abre Anaconda y selecciona el entorno en el que deseas trabajar.
+
 2-En la pestaña "Home", haz clic en el botón "Launch" debajo de "Jupyter Notebook".
+
 3-Se abrirá una nueva ventana del navegador con el panel de control de Jupyter Notebook.
+
 4-Haz clic en el botón "New" en la esquina superior derecha y selecciona "Python 3" para crear un nuevo archivo de notebook de Python.
+
 5-En el nuevo archivo de notebook, verás una celda vacía donde puedes escribir tu código.
+
 6-Escribe tu código en la celda.
+
 7-Para ejecutar el código, haz clic en la celda y presiona Shift + Enter o haz clic en el botón "Run" en la barra de herramientas.
+
 8-El resultado se mostrará debajo de la celda.
+ <br>
 
-
+## Ejemplo Practico
 Hello World Ejemplo
 ```sh
 print("Hellow World")
