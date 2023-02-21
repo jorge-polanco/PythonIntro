@@ -3,11 +3,12 @@ Co-authored-by: Aldo Maldonado Hernadez 165459
 Co-authored-by:Juan Pablo Morales Durante 171657
  
 Co-authored-by: Diego García Aldaco 170908
+
 Co-authored-by: Luis Julian Alvarez Armenta 163247
 
+Co-authored-by: Paris Escandón López
 
-Co-authored-by: AUTHOR-NAME <ANOTHER-NAME@EXAMPLE.COM>"
-
+Co-authored-by: Doris Elena Maltes Cuevas 173259
 
 
 ### Introduction
@@ -143,7 +144,7 @@ numVariables = {
 
 ## How to create subroutines and execute them.
 
-## Error management and configuration issues.
+
 # Manejo de errores
 
 Parar saber manejar errores primero debemos conocer que python contiene excepciones integradas en las cuales se pueden consultar ingresando ell siguiente commando dentro de nuestro ambiente de desarrollo:
@@ -357,6 +358,65 @@ Cleaning up, irrespective of any exceptions.
 ```
 Lo cual significa que el primer bloque try lanzó una excepción, por lo que se ejecuto el siguiente bloque except e ignorando todo el bloque else, por lo que se imprimió la excepción recibida y el mensaje contenido en el bloque finally, justificando que el bloque finally siempre se ejecutara sin importar si hubo excepciones o no.
 
+# Problemas de configuración
+# IDEs dentro de Anaconda
+
+Un **entorno de desarrollo integrado** o **entorno de desarrollo interactivo** (en inglés, *Integrated Development Environment*) es una aplicación informática que proporciona servicios integrales para facilitar al desarrollador o programador el desarrollo de software.
+
+Dentro de Anaconda existe la posibilidad de acceder a muchos entornos de desarrollo en los que se facilita programar con Python. Algunos de estos entornos más famosos son:
+
+- **Jupyter Notebook**, enfocado al análisis de datos y lectura de documentos.
+- **PyCharm**, uno de los IDEs más populares del mercado enfocado en puro desarrollo con Python.
+- **Spyder**, enfocado en el desarrollo científico de Python.
+
+Para asegurarse de que Python está instalado y actualizado en Anaconda, es tan simple como entrar en la terminal, y mediante la siguiente línea de comando `python -V` poder checar la versión que se tiene instalada dentro de Anaconda. Cabe destacar que normalmente Anaconda viene ya con una versión directa de Python.
+
+Para poder descargar las librerías dentro del entorno de Anaconda, podemos utilizar la función `pip` dentro de la terminal para poder hacer cualquier tipo de instalación de librerías que nos puedan ayudar en la elaboración de nuestro código.
+
+`pip` es un sistema de gestión de paquetes escrito en Python y se utiliza para instalar y gestionar paquetes de software. Python Software Foundation recomienda usar `pip` para instalar aplicaciones de Python y sus dependencias durante la implementación. `pip` se conecta a un repositorio en línea de paquetes públicos, llamado Python Package Index. `pip` se puede configurar para conectarse a otros repositorios de paquetes (locales o remotos), siempre que cumplan con la propuesta de mejora de Python.
+
+Para verificar la instalación de librerías en Anaconda, basta con entrar, dentro de la página principal de Anaconda, a la sección de "environments" en el cual se podrá ver desplegado todas las librerías instaladas dentro de Anaconda.
+
+# Visual studio code
+
+Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft. Es software libre y multiplataforma, está disponible para Windows, GNU/Linux y macOS. VS Code tiene una buena integración con Git, cuenta con soporte para depuración de código, y dispone de un sin número de extensiones, que básicamente te da la posibilidad de escribir y ejecutar código en cualquier lenguaje de programación.
+
+# Multiplataforma
+
+Es una característica importante en cualquier aplicación y más si trata de desarrollo. Visual Studio Code está disponible para Windows, GNU/Linux y macOS.
+
+# IntelliSense
+
+Esta característica está relacionada con la edición de código, autocompletado y resaltado de sintaxis, lo que permite ser más ágil a la hora de escribir código. Como su nombre lo indica, proporciona sugerencias de código y terminaciones inteligentes en base a los tipos de variables, funciones, etc. Con la ayuda de extensiones se puede personalizar y conseguir un IntelliSense más completo para cualquier lenguaje.
+
+# Depuración
+
+Visual Studio Code incluye la función de depuración que ayuda a detectar errores en el código. De esta manera, nos evitamos tener que revisar línea por línea a puro ojo humano para encontrar errores. VS Code también es capaz de detectar pequeños errores de forma automática antes de ejecutar el código o la depuración como tal.
+
+# Uso del control de versiones
+
+Visual Studio Code tiene compatibilidad con Git, por lo que puedes revisar diferencias o lo que conocemos con git diff, organizar archivos, realizar commits desde el editor, y hacer push y pull desde cualquier servicio de gestión de código fuente (SMC). Los demás SMC están disponibles por medio de extensiones.
+
+# Extensiones
+
+Hasta ahora, he mencionado varias veces el término extensiones porque es uno de los puntos fuertes. Visual Studio Code es un editor potente y en gran parte por las extensiones. Las extensiones nos permiten personalizar y agregar funcionalidad adicional de forma modular y aislada. Por ejemplo, para programar en diferentes lenguajes, agregar nuevos temas al editor, y conectar con otros servicios. Realmente las extensiones nos permiten tener una mejor experiencia, y lo más importante, no afectan en el rendimiento del editor, ya que se ejecutan en procesos independientes.
+
+Como se puede observar, escode es una de las herramientas más populares y utilizadas por miles de programadores alrededor del mundo debido a su flexibilidad y a las herramientas que están disponibles dentro del mismo.
+
+# Editor de texto
+
+Es conocido por ser uno de los más ligeros, pues no necesitan mucha memoria ni procesador. Esto lo hace muy rápido a la hora de abrir y crear un archivo en comparación con una IDE.
+
+A pesar de ser muy simple tiene la flexibilidad de agregar plugins o complementos. Es decir, se pueden añadir manualmente programas para hacerlo más funcional. La complicación viene a la hora de tratar que todos los plugins añadidos vayan definidos cada uno con su función y la integración con todos los demás.
+
+Un editor de código puede soportar múltiples lenguajes. En cualquier caso se puede instalar un plugin para que soporte el lenguaje y ofrezca las ayudas (autocompletado, detección de errores y redacción de sintaxis).
+
+# IDE
+
+IDE, es un entorno de desarrollo integrado. Es todo el ambiente donde se desarrolla el proyecto y posee muchas herramientas integradas entre ellas. Es decir, es como un editor de código pero con plugins ya configurados.
+
+A diferencia del editor no se enfoca en archivos sino en proyectos. Es decir, como un proyecto comprende varias carpetas y archivos. Permite desarrollar un proyecto sin necesidad de crear cada carpeta, pues esta crea automáticamente toda la estructura. La desventaja de esto es que necesita gran procesador y memoria.
+
 
 
 
@@ -367,15 +427,13 @@ P. (2022, 3 agosto). Python Data Types (With Complete List). DigitalOcean Commun
 
 Torres, A. (2021, 27 septiembre). Comprensión de Diccionario en Python: Explicado con ejemplos. freeCodeCamp.org. https://www.freecodecamp.org/espanol/news/compresion-de-diccionario-en-python-explicado-con-ejemplos/
 
+Python, R. (n.d.). Basic Error Handling. https://realpython.com/lessons/basic-error-handling/
+
+How to Define Custom Exceptions in Python? (With Examples). (n.d.). https://www.programiz.com/python-programming/user-defined-exception
+
+Real Python. (2020, August 14). Python Exceptions: An Introduction. https://realpython.com/python-exceptions/
+
+GeeksforGeeks. (2022, December 7). Python Exception Handling. https://www.geeksforgeeks.org/python-exception-handling/
 
 
 
-
-
-
-
-
-
-
-Programas muestra para introdución a Python
-[![Run on Repl.it](https://repl.it/badge/github/ingrid717-py/PythonIntro)](https://repl.it/github/ingrid717-py/PythonIntro)
