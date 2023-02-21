@@ -1,5 +1,6 @@
 Co-authored-by: Aldo Maldonado Hernadez 165459
 Co-authored-by: Diego García Aldaco 170908
+Co-authored-by: Luis Julian Alvarez Armenta 163247
 
 
 Co-authored-by: AUTHOR-NAME <ANOTHER-NAME@EXAMPLE.COM>"
@@ -23,8 +24,9 @@ Co-authored-by: AUTHOR-NAME <ANOTHER-NAME@EXAMPLE.COM>"
 [TOC]
 
 # Instalar Anaconda
-Lo primero que tienes que hacer es descargar Anaconda para poder trabajar con Júpiter, los enlaces aquí:
-https://www.anaconda.com/
+Ve al sitio web de Anaconda (https://www.anaconda.com/products/individual) y descargua el instalador de Anaconda para tu computadora,
+una vez completada la descarga, ejecuta el instalador haciendo doble clic en el archivo descargado. Sigue las instrucciones del asistente de instalación para completar la instalación. Puedes elegir la configuración predeterminada o personalizarla como prefieras al igual de donde se almacenarán los datos del programa. Una vez completada la instalación, puedes abrir anaconda buscándolo en tus aplicaciones o usando el acceso directo que se generará en el escritorio. Una vez te encuentres en el Anaconda Navigator, puedes buscar Jupyter Notebook e iniciarlo dando clic en “iniciar”, esto abrirá una pestaña en el navegador web
+
 
 ## Introducción a Python, cómo escribir código y ejecutarlo
  <br>
