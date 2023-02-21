@@ -142,7 +142,16 @@ numVariables = {
                 }
 
 
-## How to create subroutines and execute them.
+# Qué son las subrutinas en Python
+
+Una subrutina en Python se llama función. Las funciones son bloques de código reutilizables que realizan una tarea específica. Al definir una función, se especifica el nombre de la función y los parámetros que recibe, y se escribe el código que realiza la tarea.
+
+Para definir una función en Python, se utiliza la palabra clave `def`, seguida del nombre de la función y sus parámetros entre paréntesis. El código de la función va después de un dos puntos y se escribe con sangría. Por ejemplo, aquí se define una función muy simple que imprime un saludo:
+
+```python
+def saludar(nombre):
+    print("Hola", nombre)
+``` 
 
 
 # Manejo de errores
