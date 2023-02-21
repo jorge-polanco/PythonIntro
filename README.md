@@ -66,8 +66,6 @@ AAgregar Texto al notebook
 <h1>Hellow World code <h1/>
 ```
 
-## How to manage varibles, lists, dictionaries.
-
 
 ## Manejo de variables
 
@@ -80,12 +78,12 @@ Los tipos de datos de python se usan para definir el tipo de variable. Los que s
  El método *type()* sirve para imprimir a que tipo de dato pertenece una variable. A continuación se muestran ejemplos de declaración de estas variables mencionadas (P, 2023).
  
 
-#Variables numéricas
+# Variables numéricas
 number = 1234
 pi = 3.1417
 irrational = 100 +2j
 
-#Variables string
+# Variables string
 greeting = "Hello World"
 onequote = 'Hi!'
 
@@ -143,11 +141,13 @@ Para definir una función en Python, se utiliza la palabra clave `def`, seguida 
 
 ```python
 def saludar(nombre):
-    print("Hola", nombre) ```
+    print("Hola", nombre) 
+```
 
 Una vez definida la función, se puede llamar a ella en cualquier momento en el programa, pasándole los parámetros necesarios. Por ejemplo, para llamar a la función saludar y pasarle el parámetro "Juan", se escribe lo siguiente:
 ```python
-saludar("Juan")```
+saludar("Juan")
+```
 
 Esto imprimiría "Hola Juan" en la consola. Las funciones pueden tener cualquier número de parámetros y pueden devolver valores con la palabra clave return.
 Además de simplificar la resolución de problemas y reducir la repetición de código, las funciones también ayudan a organizar el código y hacerlo más fácil de leer y mantener.
