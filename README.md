@@ -13,23 +13,18 @@ Co-authored-by: Doris Elena Maltes Cuevas 173259
 
 ### Introduction
 
-- En este tutorial vamos a aprender como usar  jupyter.
+En este tutorial vamos a aprender:
+- Como instalar anaconda
+- Escribir un código y compilarlo
+- Manejar variables, listas y diccionarios
+- Como crear subrutinas
+- Manejar errores y problemas de configuración 
 
-
-# Python.md
-
-
-
-
-**Table of Contents**
-
-[ TOCM ]
-
-[TOC]
+Es importante tener en cuenta, que este tutorial debe seguirse en orden con el objetivo de ir aprendiendo las bases conforme avances en las secciones de este tutorial.
 
 # Instalar Anaconda
 Ve al sitio web de Anaconda (https://www.anaconda.com/products/individual) y descargua el instalador de Anaconda para tu computadora,
-una vez completada la descarga, ejecuta el instalador haciendo doble clic en el archivo descargado. Sigue las instrucciones del asistente de instalación para completar la instalación. Puedes elegir la configuración predeterminada o personalizarla como prefieras al igual de donde se almacenarán los datos del programa. Una vez completada la instalación, puedes abrir anaconda buscándolo en tus aplicaciones o usando el acceso directo que se generará en el escritorio. Una vez te encuentres en el Anaconda Navigator, puedes buscar Jupyter Notebook e iniciarlo dando clic en “iniciar”, esto abrirá una pestaña en el navegador web
+una vez completada la descarga, ejecuta el instalador haciendo doble clic en el archivo descargado. Sigue las instrucciones del asistente de instalación para completar la instalación. Puedes elegir la configuración predeterminada o personalizarla como prefieras al igual de donde se almacenarán los datos del programa. Una vez completada la instalación, puedes abrir anaconda buscándolo en tus aplicaciones o usando el acceso directo que se generará en el escritorio. Una vez te encuentres en el Anaconda Navigator, puedes buscar Jupyter Notebook e iniciarlo dando clic en “iniciar”, esto abrirá una pestaña en el navegador web.
 
 
 ## Introducción a Python, cómo escribir código y ejecutarlo
