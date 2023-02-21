@@ -1,4 +1,7 @@
 Co-authored-by: Aldo Maldonado Hernadez 165459
+
+Co-authored-by:Juan Pablo Morales Durante 171657
+ 
 Co-authored-by: Diego García Aldaco 170908
 Co-authored-by: Luis Julian Alvarez Armenta 163247
 
