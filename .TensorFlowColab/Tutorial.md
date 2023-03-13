@@ -15,7 +15,7 @@ En este tutorial aprenderas a usar la libreria Tensorflow en el ambiente de Goog
 Aprenderas:
 - Que es Google Colab
 - Que es TensorFlow
-- Como usarlo en Google Colab
+- Como usar TensorFlow en Google Colab
 - Pasos para crear una red neuronal
 
 ### Que es Google Colab?
