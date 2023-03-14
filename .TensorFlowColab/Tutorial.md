@@ -4,7 +4,7 @@ Co-authored-by: Fernando Cuervo Ledesma 165972
 
 Co-authored-by: Ximena Vazquez Mellado Flores 171319
 
-Co-authored-by: 
+Co-authored-by: Jorge Roberto Polanco Dominguez 167325
 
 Co-authored-by: 
 
